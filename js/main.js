@@ -54,14 +54,21 @@ $(function () {
         }, 1000);
     });
 
-    $('#menu li a').on('click', function () {
-        //e.preventDefault();
+    $('#menu li a').on('click', function (e) {
+        e.preventDefault();
         let target = $(this).attr('href');
         $('html, body').stop().animate({
             scrollTop: $(target).offset().top
         });
     })
 
+    $('.gnb>li a').on('click', function (e) {
+        e.preventDefault();
+        let target = $(this).attr('href');
+        $('html, body').stop().animate({
+            scrollTop: $(target).offset().top
+        });
+    })
 
 
 
