@@ -353,44 +353,44 @@
     height: 571px;
 }
 
-#footer {
+#contact {
     background: url(../img/footer_img.png) no-repeat center center / cover;
     height: 100vh;
     color: #fff;
     font-size: 36px;
 }
 
-.footerin {
+.contactin {
     width: 1030px;
     margin: 0 auto;
 }
 
-.footerin h2 {
+.contactin h2 {
     text-align: center;
     padding-top: 30px;
     font-size: 60px;
     color: #f2b908;
 }
 
-.footerin .f_tit {
+.contactin .c_tit {
     padding-top: 60px;
     font-size: 60px;
     line-height: 2em;
     font-family: 'PyeongChangPeace-Bold';
 }
 
-.footerin .f_name {
+.contactin .c_name {
     display: flex;
     font-size: 36px;
     margin-top: 200px;
     margin-bottom: 20px;
 }
 
-.footerin .f_name p {
+.contactin .c_name p {
     margin-right: 50px;
 }
 
-.footerin .f_txt {
+.contactin .c_txt {
     margin-top: 50px;
     font-size: 24px;
     color: #00a0e9;

@@ -42,8 +42,8 @@ $(function () {
         $('#menu').toggleClass('show');
     })
 
-    let title = $('#title').offset().top;
-    let intro = $('#intro').offset().top;
+    let home = $('#home').offset().top;
+    let profile = $('#profile').offset().top;
     let works_top = $('#works_top').offset().top;
     let contact = $('#contact').offset().top;
 
@@ -54,8 +54,8 @@ $(function () {
         }, 1000);
     });
 
-    $('#menu li a').on('click', function (e) {
-        e.preventDefault();
+    $('#menu li a').on('click', function () {
+        //e.preventDefault();
         let target = $(this).attr('href');
         $('html, body').stop().animate({
             scrollTop: $(target).offset().top
